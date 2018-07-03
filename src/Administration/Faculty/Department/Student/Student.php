@@ -36,11 +36,6 @@ class Student extends Department
         return true;
     }
 
-    public function getStudentCount(): int
-    {
-        return count($this->students);
-    }
-
     public function removeStudent(string $value): void
     {
         if (!$this->hasStudent($value)) {
