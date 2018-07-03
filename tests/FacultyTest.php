@@ -16,6 +16,8 @@ class FacultyTest extends TestCase
         $this->assertSame(true, in_array('Машиностроительный', $faculty->getFaculties()));
     }
 
+    /** @test */
+
     function test_get_faculties()
     {
         $faculty = new Faculty;
@@ -26,6 +28,8 @@ class FacultyTest extends TestCase
         $this->assertSame(true, in_array('Автоматизации и ифнормационных технологий', $faculty->getFaculties()));
     }
 
+    /** @test */
+
     function test_remove_faculty()
     {
         $faculty = new Faculty;
@@ -33,15 +37,5 @@ class FacultyTest extends TestCase
         $faculty->removeFaculty('Машиностроительный');
         $this->assertSame(false, in_array('Машиностроительный', $faculty->getFaculties()));
     }
-
-/*    function test_add_department()
-    {
-        $faculty = new Faculty;
-        $faculty = 'Автоматизации и информационных технологий';
-        $department = 'АПП';
-        $faculty->addFaculty($faculty);
-        $faculty->addDepartment($faculty, $department);
-        $this->assertSame(true, in_array('АПП', $faculty->getDepartments($faculty)));
-    }*/
 
 }

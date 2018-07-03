@@ -16,6 +16,8 @@ class AdministrationTest extends TestCase
         $this->assertSame(true, $administration->hasRector('Ковалёв'));
     }
 
+    /** @test */
+
     function test_get_set_rector()
     {
         $administration = new Administration;

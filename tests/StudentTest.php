@@ -21,6 +21,8 @@ class StudentTest extends TestCase
         $this->assertSame(true, in_array($name, $student->getStudents($department)));
     }
 
+    /** @test */
+
     function test_has_student()
     {
         $student = new Student;
@@ -34,6 +36,8 @@ class StudentTest extends TestCase
         $this->assertSame(true, in_array($name, $student->getStudents($department)));
     }
 
+    /** @test */
+
     function test_get_students()
     {
         $student = new Student;
@@ -46,6 +50,8 @@ class StudentTest extends TestCase
         $this->assertInternalType('array', $student->getStudents($department));
         $this->assertSame(true, in_array($name, $student->getStudents($department)));
     }
+
+    /** @test */
 
     function test_remove_student()
     {

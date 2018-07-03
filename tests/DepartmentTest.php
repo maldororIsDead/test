@@ -19,6 +19,8 @@ class DepartmentTest extends TestCase
         $this->assertSame(true, in_array($value, $department->getDepartments()));
     }
 
+    /** @test */
+
     function test_has_department()
     {
         $department = new Department;
@@ -30,6 +32,8 @@ class DepartmentTest extends TestCase
         $this->assertSame(true, in_array($value, $department->getDepartments()));
     }
 
+    /** @test */
+
     function test_get_departments()
     {
         $department = new Department;
@@ -40,6 +44,8 @@ class DepartmentTest extends TestCase
         $this->assertInternalType('array', $department->getDepartments());
         $this->assertSame(true, in_array($value, $department->getDepartments()));
     }
+
+    /** @test */
 
     function test_remove_department()
     {
