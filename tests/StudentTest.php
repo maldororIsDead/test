@@ -2,14 +2,14 @@
 
 namespace Tests;
 
-use App\Student\Student;
+use App\Administration\Faculty\Department\Student\Student;
 use PHPUnit\Framework\TestCase;
 
 class StudentTest extends TestCase
 {
     /** @test */
 
-    function test_add_student()
+    public function test_add_student()
     {
         $student = new Student;
         $faculty = 'Машиностроительный';
@@ -18,12 +18,12 @@ class StudentTest extends TestCase
         $student->addFaculty($faculty);
         $student->addDepartment($faculty, $department);
         $student->addStudent($department, $name);
-        $this->assertSame(true, in_array($name, $student->getStudents($department)));
+        $this->assertTrue(in_array($name, $student->getStudents($department)));
     }
 
     /** @test */
 
-    function test_has_student()
+    public function test_has_student()
     {
         $student = new Student;
         $faculty = 'Машиностроительный';
@@ -33,12 +33,12 @@ class StudentTest extends TestCase
         $student->addDepartment($faculty, $department);
         $student->addStudent($department, $name);
         $student->hasStudent($name);
-        $this->assertSame(true, in_array($name, $student->getStudents($department)));
+        $this->assertTrue(in_array($name, $student->getStudents($department)));
     }
 
     /** @test */
 
-    function test_get_students()
+    public function test_get_students()
     {
         $student = new Student;
         $faculty = 'Машиностроительный';
@@ -48,12 +48,12 @@ class StudentTest extends TestCase
         $student->addDepartment($faculty, $department);
         $student->addStudent($department, $name);
         $this->assertInternalType('array', $student->getStudents($department));
-        $this->assertSame(true, in_array($name, $student->getStudents($department)));
+        $this->assertTrue(in_array($name, $student->getStudents($department)));
     }
 
     /** @test */
 
-    function test_remove_student()
+    public function test_remove_student()
     {
         $student = new Student;
         $faculty = 'Машиностроительный';
@@ -63,6 +63,6 @@ class StudentTest extends TestCase
         $student->addDepartment($faculty, $department);
         $student->addStudent($department, $name);
         $student->removeStudent($name);
-        $this->assertSame(false, in_array($name, $student->getStudents($department)));
+        $this->assertFalse(in_array($name, $student->getStudents($department)));
     }
 }

@@ -4,6 +4,7 @@ namespace App\Administration;
 
 interface AdministrationInterface
 {
-    public function hasRector(string $value);
-    public function getRector();
+    public function isRector(string $value): int;
+
+    public function getRector(): string;
 }

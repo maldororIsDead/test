@@ -6,17 +6,17 @@ class Administration implements AdministrationInterface
 {
     protected $rector;
 
-    public function hasRector(string $value)
+    public function isRector(string $name): int
     {
-        return ($this->rector === $value) ? true : false;
+        return strcasecmp(mb_strtoupper($this->rector), mb_strtoupper($name));
     }
 
-    public final function setRector(string $value)
+    public function setRector(string $name): void
     {
-        $this->rector = $value;
+        $this->rector = $name;
     }
 
-    public function getRector()
+    public function getRector(): string
     {
         return $this->rector;
     }

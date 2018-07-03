@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Administration/Faculty/Department/Department.php" description="namespace App\Administration\Faculty\Department;" line="2" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="08e012ee-1733-4a0b-ba34-c53ed0736ea7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Faculty/FacultyInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Administration/Faculty/Department/Department.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Administration/Faculty/Department/DepartmentInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Administration/Faculty/Department/Student/Student.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Administration/Faculty/Department/Teacher/Teacher.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Administration/Faculty/FacultyInterface.php" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change beforePath="$PROJECT_DIR$/src/Administration/Administration.php" afterPath="$PROJECT_DIR$/src/Administration/Administration.php" />
       <change beforePath="$PROJECT_DIR$/src/Administration/AdministrationInterface.php" afterPath="$PROJECT_DIR$/src/Administration/AdministrationInterface.php" />
-      <change beforePath="$PROJECT_DIR$/src/Faculty/Faculty.php" afterPath="$PROJECT_DIR$/src/Faculty/Faculty.php" />
+      <change beforePath="$PROJECT_DIR$/src/Department/Department.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Department/DepartmentInterface.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Faculty/Faculty.php" afterPath="$PROJECT_DIR$/src/Administration/Faculty/Faculty.php" />
+      <change beforePath="$PROJECT_DIR$/src/Faculty/FacultyInterface.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Student/Student.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Teacher/Teacher.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/tests/AdministrationTest.php" afterPath="$PROJECT_DIR$/tests/AdministrationTest.php" />
       <change beforePath="$PROJECT_DIR$/tests/DepartmentTest.php" afterPath="$PROJECT_DIR$/tests/DepartmentTest.php" />
       <change beforePath="$PROJECT_DIR$/tests/FacultyTest.php" afterPath="$PROJECT_DIR$/tests/FacultyTest.php" />
@@ -26,57 +39,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Faculty.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Faculty/Faculty.php">
+      <file leaf-file-name="Department.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Department/Department.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="276">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
-                <element signature="e#32#70#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DepartmentInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Department/DepartmentInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacultyInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Faculty/FacultyInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdministrationTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/AdministrationTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#25#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DepartmentTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/DepartmentTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-              <folding>
-                <element signature="e#25#55#0#PHP" expanded="true" />
+                <element signature="e#57#96#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,11 +54,21 @@
       <file leaf-file-name="FacultyTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/FacultyTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="437">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#25#49#0#PHP" expanded="true" />
+                <element signature="e#25#64#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,33 +76,47 @@
       <file leaf-file-name="StudentTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/StudentTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="115">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding>
-                <element signature="e#25#49#0#PHP" expanded="true" />
+                <element signature="e#25#83#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TeacherTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/TeacherTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="793">
-              <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+            <state relative-caret-position="207">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
-                <element signature="e#25#49#0#PHP" expanded="true" />
+                <element signature="e#25#83#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdministrationInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Administration/AdministrationInterface.php">
+      <file leaf-file-name="Student.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Department/Student/Student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="-115">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#65#94#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Teacher.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Department/Teacher/Teacher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#65#118#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +124,28 @@
       <file leaf-file-name="Administration.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Administration/Administration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="69">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Department/DepartmentInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -151,6 +164,7 @@
       <find>$department</find>
       <find>administration</find>
       <find>Department</find>
+      <find>assertSame</find>
     </findStrings>
     <replaceStrings>
       <replace>Department</replace>
@@ -161,6 +175,7 @@
       <replace>$student</replace>
       <replace>faculty</replace>
       <replace>Faculty</replace>
+      <replace>assertTrue</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -173,21 +188,27 @@
         <option value="$PROJECT_DIR$/src/Administration/Rectorate.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Interfaces/AcademyInterfase.php" />
-        <option value="$PROJECT_DIR$/src/Department/DepartmentInterface.php" />
-        <option value="$PROJECT_DIR$/src/Department/Department.php" />
-        <option value="$PROJECT_DIR$/src/Student/Student.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/src/Teacher/Teacher.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/tests/AdministrationTest.php" />
         <option value="$PROJECT_DIR$/src/Administration/AdministrationInterface.php" />
+        <option value="$PROJECT_DIR$/src/Administration/Administration.php" />
         <option value="$PROJECT_DIR$/src/Faculty/FacultyInterface.php" />
         <option value="$PROJECT_DIR$/src/Faculty/Faculty.php" />
-        <option value="$PROJECT_DIR$/src/Administration/Administration.php" />
-        <option value="$PROJECT_DIR$/tests/FacultyTest.php" />
-        <option value="$PROJECT_DIR$/tests/AdministrationTest.php" />
+        <option value="$PROJECT_DIR$/src/Student/Student.php" />
+        <option value="$PROJECT_DIR$/src/Department/Department.php" />
+        <option value="$PROJECT_DIR$/src/Department/DepartmentInterface.php" />
+        <option value="$PROJECT_DIR$/src/Teacher/Teacher.php" />
+        <option value="$PROJECT_DIR$/src/Administration/Faculty/FacultyInterface.php" />
+        <option value="$PROJECT_DIR$/src/Administration/Faculty/Faculty.php" />
+        <option value="$PROJECT_DIR$/src/Administration/Faculty/Department/DepartmentInterface.php" />
         <option value="$PROJECT_DIR$/tests/DepartmentTest.php" />
+        <option value="$PROJECT_DIR$/src/Administration/Faculty/Department/Department.php" />
+        <option value="$PROJECT_DIR$/src/Administration/Faculty/Department/Teacher/Teacher.php" />
+        <option value="$PROJECT_DIR$/src/Administration/Faculty/Department/Student/Student.php" />
         <option value="$PROJECT_DIR$/tests/StudentTest.php" />
         <option value="$PROJECT_DIR$/tests/TeacherTest.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/tests/FacultyTest.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -276,19 +297,34 @@
               <item name="dsea" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsea" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Department" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dsea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dsea" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Administration" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Faculty" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="dsea" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsea" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Administration" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculty" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Department" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dsea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsea" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Administration" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculty" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Department" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Student" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dsea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsea" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Administration" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Faculty" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Department" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="dsea" type="b2602c69:ProjectViewProjectNode" />
@@ -310,6 +346,9 @@
       <recent name="D:\Studies\Webcourses\Open Server\OSPanel\domains\dsea\src\Faculty" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studies\Webcourses\Open Server\OSPanel\domains\dsea\src\Administration\Faculty\Department" />
+      <recent name="D:\Studies\Webcourses\Open Server\OSPanel\domains\dsea\src\Administration\Faculty" />
+      <recent name="D:\Studies\Webcourses\Open Server\OSPanel\domains\dsea\src\Administration" />
       <recent name="D:\Studies\Webcourses\Open Server\OSPanel\domains\dsea\src\Department" />
     </key>
   </component>
@@ -338,12 +377,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530526941813</updated>
-      <workItem from="1530526944741" duration="35718000" />
+      <workItem from="1530526944741" duration="46097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35718000" />
+    <option name="totallyTimeSpent" value="46097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -397,36 +436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Department/DepartmentInterface.php">
+    <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Department/DepartmentInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teacher/Teacher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -450,82 +463,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Department/Department.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="e#34#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student/Student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#31#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Administration/AdministrationInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="184">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Department/DepartmentInterface.php">
+    <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Faculty.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Faculty/FacultyInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Faculty/Faculty.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="37" />
           <folding>
-            <element signature="e#32#70#0#PHP" expanded="true" />
+            <element signature="e#46#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Administration/Administration.php">
+    <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/FacultyInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="253">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/FacultyTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#49#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/AdministrationTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#25#63#0#PHP" expanded="true" />
           </folding>
@@ -534,31 +501,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/DepartmentTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#25#55#0#PHP" expanded="true" />
+            <element signature="e#25#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Department/DepartmentInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Department/Teacher/Teacher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#65#118#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Administration/Administration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Department/Student/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#65#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Administration/Faculty/Department/Department.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#57#96#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/StudentTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="115">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding>
-            <element signature="e#25#49#0#PHP" expanded="true" />
+            <element signature="e#25#83#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/TeacherTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        <state relative-caret-position="207">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <element signature="e#25#49#0#PHP" expanded="true" />
+            <element signature="e#25#83#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/FacultyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#64#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

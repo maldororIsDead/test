@@ -1,7 +1,6 @@
 <?php
 
-namespace App\Faculty;
-
+namespace App\Administration\Faculty;
 
 use App\Administration\Administration;
 use InvalidArgumentException;
@@ -10,26 +9,26 @@ class Faculty extends Administration implements FacultyInterface
 {
     protected $faculty = [];
 
-    public function hasFaculty(string $value)
+    public function hasFaculty(string $value): bool
     {
         return in_array($value, $this->faculty);
     }
 
-    public function addFaculty(string $value)
+    public function addFaculty(string $value): void
     {
         if (in_array($value, $this->faculty)) {
-            throw new InvalidArgumentException("Факультет '{$value}' уже существует");
+            throw new InvalidArgumentException("Faculty '{$value}' has already exist");
         } else {
-            array_push($this->faculty, $value);
+            $this->faculty[] = $value;
         }
     }
 
-    public function getFaculties()
+    public function getFaculties(): array
     {
         return $this->faculty;
     }
 
-    public final function removeFaculty(string $value)
+    public function removeFaculty(string $value): void
     {
         $key = array_search($value, $this->faculty);
         array_splice($this->faculty, $key, 1);

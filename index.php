@@ -2,7 +2,7 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use App\Student\Student;
+use App\Administration\Faculty\Department\Student\Student;
 
 $student = new Student;
 $faculty = 'Машиностроительный';

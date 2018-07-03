@@ -9,16 +9,16 @@ class AdministrationTest extends TestCase
 {
     /** @test */
 
-    function test_has_rector()
+    public function test_is_rector()
     {
         $administration = new Administration;
         $administration->setRector('Ковалёв');
-        $this->assertSame(true, $administration->hasRector('Ковалёв'));
+        $this->assertSame(0, $administration->isRector('ковалёв'));
     }
 
     /** @test */
 
-    function test_get_set_rector()
+    public function test_get_set_rector()
     {
         $administration = new Administration;
         $administration->setRector('Ковалёв');
