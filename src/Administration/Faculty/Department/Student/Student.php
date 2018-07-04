@@ -7,7 +7,10 @@ use App\Administration\Faculty\Department\Department;
 
 class Student extends Department
 {
+    /* @var array */
     protected $students = [];
+
+    /* @var array */
     private $container = [];
 
     public function addStudent(string $key, $value): void

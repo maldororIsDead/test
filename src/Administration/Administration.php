@@ -4,6 +4,7 @@ namespace App\Administration;
 
 class Administration implements AdministrationInterface
 {
+    /* @var string */
     protected $rector;
 
     public function isRector(string $name): int

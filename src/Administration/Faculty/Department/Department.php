@@ -7,6 +7,7 @@ use InvalidArgumentException;
 
 class Department extends Faculty implements DepartmentInterface
 {
+    /* @var array */
     protected $departments = [];
 
     public function hasDepartment(string $value): bool

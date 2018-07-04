@@ -7,7 +7,10 @@ use InvalidArgumentException;
 
 class Teacher extends Department
 {
+    /* @var array */
     protected $teachers = [];
+
+    /* @var array */
     private $container = [];
 
     public function addTeacher(string $key, $value): void
